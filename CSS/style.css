@@ -300,7 +300,7 @@ input[type=radio] {
     height: 12%;
     width: 78%;
     place-items: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
     background-color: red;
     text-decoration: none;
 }
@@ -385,21 +385,94 @@ input[type=radio] {
     z-index: 1;
 
     img {
-        box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        box-shadow: 0px 0px 0px 0px rgba(81, 81, 81, 0.47);
     }
 }
 
 /* FIM NARRATIVAS CARROUSSEL*/
 
 
+/* PESQUISADORAS */
 
+.intro_pesquisadoras {
+    background: url(../imgPlat/bg-pesquisadoras.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 15% 0;
+}
 
+.pesquisadoras_lista {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    column-gap: 8%;
+    justify-content: center;
+}
 
+.pesquisadoras_lista img {
+    max-width: 100%;
+    max-height: 220px;
+}
 
+.pesquisadoras_lista a {
+    padding-bottom: 20%;
+    text-decoration: none;
+}
 
+.pesquisadoras_lista p {
+    padding-top: 8%;
+    color: #000;
+    font-size: 1.2em;
+}
 
+/*ROTAÇÃO DAS IMAGENS*/
+.pesquisadoras_lista a:nth-child(1) img {
+    transform: rotate(5deg);
+}
 
+.pesquisadoras_lista a:nth-child(2) img {
+    transform: rotate(-5deg);
+}
 
+.pesquisadoras_lista a:nth-child(3) img {
+    transform: rotate(9deg);
+}
+
+.pesquisadoras_lista a:nth-child(4) img {
+    transform: rotate(2deg);
+}
+
+.pesquisadoras_lista a:nth-child(5) img {
+    transform: rotate(-6deg);
+}
+
+.pesquisadoras_lista a:nth-child(6) img {
+    transform: rotate(7deg);
+}
+
+.pesquisadoras_lista a:nth-child(7) img {
+    transform: rotate(-5deg);
+}
+
+.pesquisadoras_lista a:nth-child(8) img {
+    transform: rotate(9deg);
+}
+
+.pesquisadoras_lista a:nth-child(9) img {
+    transform: rotate(-6deg);
+}
+
+.pesquisadoras_lista a:nth-child(10) img {
+    transform: rotate(6deg);
+}
+
+.pesquisadoras_lista a:nth-child(11) img {
+    transform: rotate(-6deg);
+}
+
+.pesquisadoras_lista a:nth-child(12) img {
+    transform: rotate(-6deg);
+}
+/*FIM ROTAÇÃO DAS IMAGENS*/
 
 
 
