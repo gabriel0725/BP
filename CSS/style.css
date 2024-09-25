@@ -358,10 +358,20 @@ input[type=radio] {
     object-fit: contain;
 }
 
-#item-1:checked~.cards #song-4,
+#item-1:checked~.cards #song-14,
 #item-2:checked~.cards #song-1,
 #item-3:checked~.cards #song-2,
-#item-4:checked~.cards #song-3{
+#item-4:checked~.cards #song-3,
+#item-5:checked~.cards #song-4,
+#item-6:checked~.cards #song-5,
+#item-7:checked~.cards #song-6,
+#item-8:checked~.cards #song-7,
+#item-9:checked~.cards #song-8,
+#item-10:checked~.cards #song-9,
+#item-11:checked~.cards #song-10,
+#item-12:checked~.cards #song-11,
+#item-13:checked~.cards #song-12,
+#item-14:checked~.cards #song-13{
     transform: translatex(-40%) scale(.8);
     opacity: .4;
     z-index: 0;
@@ -370,7 +380,17 @@ input[type=radio] {
 #item-1:checked~.cards #song-2,
 #item-2:checked~.cards #song-3,
 #item-3:checked~.cards #song-4,
-#item-4:checked~.cards #song-1 {
+#item-4:checked~.cards #song-5,
+#item-5:checked~.cards #song-6,
+#item-6:checked~.cards #song-7,
+#item-7:checked~.cards #song-8,
+#item-8:checked~.cards #song-9,
+#item-9:checked~.cards #song-10,
+#item-10:checked~.cards #song-11,
+#item-11:checked~.cards #song-12,
+#item-12:checked~.cards #song-13,
+#item-13:checked~.cards #song-14,
+#item-14:checked~.cards #song-1 {
     transform: translatex(40%) scale(.8);
     opacity: .4;
     z-index: 0;
@@ -379,7 +399,17 @@ input[type=radio] {
 #item-1:checked~.cards #song-1,
 #item-2:checked~.cards #song-2,
 #item-3:checked~.cards #song-3,
-#item-4:checked~.cards #song-4{
+#item-4:checked~.cards #song-4,
+#item-5:checked~.cards #song-5,
+#item-6:checked~.cards #song-6,
+#item-7:checked~.cards #song-7,
+#item-8:checked~.cards #song-8,
+#item-9:checked~.cards #song-9,
+#item-10:checked~.cards #song-10,
+#item-11:checked~.cards #song-11,
+#item-12:checked~.cards #song-12,
+#item-13:checked~.cards #song-13,
+#item-14:checked~.cards #song-14{
     transform: translatex(0) scale(1);
     opacity: 1;
     z-index: 1;
