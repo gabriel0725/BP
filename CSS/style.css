@@ -220,7 +220,8 @@ input:checked~.menu-hamburguer-elements {
     padding-top: 2%;
 }
 
-.sobre_txt p, h1 {
+.sobre_txt p,
+h1 {
     line-height: 1.2em;
     text-decoration: none;
     color: #000000;
@@ -368,7 +369,7 @@ input[type=radio] {
 #item-11:checked~.cards #song-10,
 #item-12:checked~.cards #song-11,
 #item-13:checked~.cards #song-12,
-#item-14:checked~.cards #song-13{
+#item-14:checked~.cards #song-13 {
     transform: translatex(-40%) scale(.8);
     opacity: .4;
     z-index: 0;
@@ -406,7 +407,7 @@ input[type=radio] {
 #item-11:checked~.cards #song-11,
 #item-12:checked~.cards #song-12,
 #item-13:checked~.cards #song-13,
-#item-14:checked~.cards #song-14{
+#item-14:checked~.cards #song-14 {
     transform: translatex(0) scale(1);
     opacity: 1;
     z-index: 1;
@@ -417,6 +418,49 @@ input[type=radio] {
 }
 
 /* FIM NARRATIVAS CARROUSSEL*/
+
+
+/*NARRATIVAS 1.2*/
+
+.intro_narrativas1_2 {
+    background: url(../imgPlat/bg-narrativas1.2.png);
+    background-size: cover;
+    height: 1000px;
+    padding: 10% 0;
+}
+
+.narrativas_temas_lista {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    column-gap: 6%;
+    justify-content: center;
+    row-gap: 20%;
+}
+
+.narrativas_temas_lista img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.temas_elementos {
+    position: relative; /* Adiciona position relativa */
+    margin: auto;
+    cursor: pointer;
+}
+
+.temas_elementos a {
+    position: absolute; /* Posiciona o link de forma absoluta */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+    color: black;
+    font-family: 'Courier Prime';
+    font-size: 1.4em;
+    background-color: rgba(255, 0, 0, 0.7); /* Fundo semi-transparente para melhor visibilidade */
+    text-decoration: none;
+    padding: 20%;
+}
+
 
 
 /* PESQUISADORAS */
@@ -499,6 +543,7 @@ input[type=radio] {
 .pesquisadoras_lista a:nth-child(12) img {
     transform: rotate(-6deg);
 }
+
 /*FIM ROTAÇÃO DAS IMAGENS*/
 
 
@@ -530,6 +575,7 @@ input[type=radio] {
 .projetos_txt {
     width: 90%;
 }
+
 .projetos_txt p {
     padding-top: 1.1%;
     font-size: 1.5em;
@@ -545,7 +591,7 @@ input[type=radio] {
     font-size: 2.3em;
 }
 
-.vazio { 
+.vazio {
     margin-bottom: 2%;
 }
 
