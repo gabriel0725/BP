@@ -475,17 +475,38 @@ input[type=radio] {
     background-size: cover;
     width: 80%;
     margin: 0 auto;
+    height: 800px;
 }
 
 .narrativas1_3_txt {
-    width: 90%;
+    width: 60%;
+    padding-top: 10%;
 }
 
 .narrativas1_3_txt p {
-    padding-top: 0%;
+    padding-top: 7%;
     font-size: 1.5em;
     text-align: center;
+    
 }
+
+.frozinha2 {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 58%;
+    max-height: 200px;
+    max-width: 340px;
+}
+
+.frozinha3 {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: -20%;
+    max-height: 450px;
+    max-width: 340px;
+}
+
+
 
 
 
@@ -571,6 +592,59 @@ input[type=radio] {
 }
 
 /*FIM ROTAÇÃO DAS IMAGENS*/
+
+
+/*Pesquisadores detalhe*/
+
+.intro_detalhe_pesq{
+    background: url("../imgPlat/2.2\ pesquisadoras\ fundo.png") no-repeat center;
+    width: 100%;
+    height: 1200px;
+    background-size: cover;
+    padding-top: 13%;
+}
+
+.fundo_detalhe_pesq{
+    margin: 0 auto;
+    background: url("../imgPlat/2.1\ Pesquisadoras\ fundo\ \(sem\ elementos\).png") no-repeat;
+    width: 100%;
+    max-width: 900px;
+    height: 800px;
+}
+
+.pesquisadores_pessoa {
+    padding-top: 7%;
+    margin-left: 7%;
+    width: 80%;
+}
+
+.pesquisadores_pessoa li {
+    list-style: none;
+}
+
+.pesquisadores_pessoa a{
+    text-decoration: none;
+    color: #000;
+}
+
+.foto_pessoa {
+    float: left;
+    margin-right: 3%;
+    width: 300px;
+    height: 300px;
+}
+
+.lista_txt {
+    text-align: justify;
+    margin-top: 3%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 
 /* PROJETOS */
