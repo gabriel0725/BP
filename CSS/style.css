@@ -229,6 +229,10 @@ h1 {
     padding-bottom: 3%;
 }
 
+.sobre_txt h1 {
+    font-family: "Courier Prime", monospace;
+}
+
 .fundo_cont {
     margin: 0 auto;
     background: url(../imgPlat/txtNarrativasFundo.png) no-repeat center;
@@ -443,14 +447,16 @@ input[type=radio] {
 }
 
 .temas_elementos {
+    display: inline-block;
     position: relative; /* Adiciona position relativa */
     margin: auto;
     cursor: pointer;
+    padding-top: 25%;
 }
 
 .temas_elementos a {
     position: absolute; /* Posiciona o link de forma absoluta */
-    top: 50%; /* Centraliza verticalmente */
+    top: 60%; /* Centraliza verticalmente */
     left: 50%; /* Centraliza horizontalmente */
     transform: translate(-50%, -50%); /* Ajusta para o centro exato */
     color: black;
@@ -461,39 +467,80 @@ input[type=radio] {
     padding: 20%;
 }
 
+/*ROTAÇÃO DAS IMAGENS*/
+.temas_elementos:nth-child(1) {
+    transform: rotate(5deg);
+}
+
+.temas_elementos:nth-child(2) {
+    transform: rotate(-7deg);
+}
+
+.temas_elementos:nth-child(3) {
+    transform: rotate(-2deg);
+}
+
+.temas_elementos:nth-child(4) {
+    transform: rotate(-8deg);
+}
+
+.temas_elementos:nth-child(5) {
+    transform: rotate(4deg);
+}
+
+.temas_elementos:nth-child(6) {
+    transform: rotate(8deg);
+}
+
+.narrativas_flor {
+    display: block;
+    max-height: 120px;
+    margin: 7% auto;
+}
+
+
 /*NARRATIVAS 1.3*/
 
 .intro_narrativas1_3 {
-    background: url(../imgPlat/bg-1.3Narrativas.png);
+    background: url(../imgPlat/1.4\ narrativas.png) no-repeat center;
     background-size: cover;
-    height: 1000px;
+    height: 1500px;
     padding: 10% 0;
 }
 
 .fundo_narrativas1_3{
     background: url(../imgPlat/narrativas1.3-txt.png);
     background-size: cover;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    height: 800px;
+    height: 1200px;
 }
 
 .narrativas1_3_txt {
-    width: 60%;
-    padding-top: 10%;
+    width: 80%;
+    padding-top: 5%;
 }
 
-.narrativas1_3_txt p {
-    padding-top: 7%;
+.aNarrativa {
+    padding-top: 5%;
     font-size: 1.5em;
     text-align: center;
-    
+}
+
+.titulo_narrativa {
+    font-size: 1.5em;
+    padding-top: 0;
+}
+
+.pesquisadora_narrativa {
+    font-size: 1.2em;
+    padding-top: 0.5%;
 }
 
 .frozinha2 {
     position: absolute;
     margin-top: -5%;
-    margin-left: 58%;
+    margin-left: 50%;
     max-height: 200px;
     max-width: 340px;
 }
@@ -597,7 +644,7 @@ input[type=radio] {
 /*Pesquisadores detalhe*/
 
 .intro_detalhe_pesq{
-    background: url("../imgPlat/2.2\ pesquisadoras\ fundo.png") no-repeat center;
+    background: url("../imgPlat/2.2\ pesquisadoras\ fundo.png") no-repeat;
     width: 100%;
     height: 1200px;
     background-size: cover;
@@ -606,7 +653,7 @@ input[type=radio] {
 
 .fundo_detalhe_pesq{
     margin: 0 auto;
-    background: url("../imgPlat/2.1\ Pesquisadoras\ fundo\ \(sem\ elementos\).png") no-repeat;
+    background: url("../imgPlat/2.2\ pesquisadoras\ \(onde\ vai\ o\ texto\).png") no-repeat;
     width: 100%;
     max-width: 900px;
     height: 800px;
@@ -614,7 +661,6 @@ input[type=radio] {
 
 .pesquisadores_pessoa {
     padding-top: 7%;
-    margin-left: 7%;
     width: 80%;
 }
 
@@ -639,6 +685,11 @@ input[type=radio] {
     margin-top: 3%;
 }
 
+.lista_txt p{
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -650,11 +701,12 @@ input[type=radio] {
 /* PROJETOS */
 
 .intro_projetos {
-    background: url(../imgPlat/bg-projetos.png) no-repeat center;
+    background: url(../imgPlat/bg-projetos.png) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1600px;
+    height: 1800px;
     align-content: center;
+    padding-top: 13%;
 }
 
 .fundo_projetos {
@@ -670,6 +722,7 @@ input[type=radio] {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    font-family: "Courier Prime", monospace;
 }
 
 .projetos_txt {
@@ -698,6 +751,12 @@ input[type=radio] {
 .link-narr {
     text-decoration: none;
     color: #000;
+}
+
+.coracao_sobre {
+    display: block;
+    margin: 5% auto;
+    max-height: 100px;
 }
 
 
