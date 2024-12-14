@@ -209,7 +209,7 @@ input:checked~.menu-hamburguer-elements {
 .intro_sobre {
     background: url(../imgPlat/bgSobre.png) no-repeat center;
     background-size: cover;
-    height: 900px;
+    height: 950px;
     align-content: center;
 }
 
@@ -292,7 +292,7 @@ input[type=radio] {
     cursor: pointer;
 }
 
-/*posso excluir essa parte para fazer mais teste*/
+/*posso excluir essa parte para fazer mais teste/
 .card a {
     color: black;
     font-family: 'Courier Prime';
@@ -316,12 +316,12 @@ input[type=radio] {
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
     padding: 5px 10px;
     border-radius: 5px;
 
-    font-size: 16px;
+    font-size: 2em;
 }
 
 #item-3:checked~.cards #song-3 .link-text {
@@ -457,7 +457,6 @@ input[type=radio] {
     color: black;
     font-family: 'Courier Prime';
     font-size: 1.4em;
-    background-color: rgba(255, 0, 0, 0.7); /* Fundo semi-transparente para melhor visibilidade */
     text-decoration: none;
     padding: 20%;
 }
@@ -675,7 +674,7 @@ input[type=radio] {
 }
 
 .lista_txt {
-    text-align: justify;
+    /*text-align: justify;*/
     margin-top: 3%;
 }
 
@@ -845,7 +844,213 @@ input[type=radio] {
     .header_menu ul li a:hover {
         border-color: #000000;
     }
+
+    /*Inicio*/
+
+.introducao {
+    margin-top: 0px;
+    background: url(../imgPlat/mobile/bg-intro-mobile.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: -webkit-center;
 }
+
+.introducao_txt {
+    height: 40vh;
+    width: 310px;
+    align-content: space-evenly;
+    padding-top: 15%;
+}
+
+.introducao p {
+    font-size: 3em;
+    color: #3b2215;
+    line-height: 40px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.introducao .coordenada {
+    font-size: 1.5em;
+    color: #3b2215;
+    line-height: 20px;
+    margin-left: 0;
+    text-align: center;
+}
+
+/*Sobre*/
+
+.intro_sobre {
+    height: 1150px;
+}
+
+.sobre_txt {
+    width: 90%;
+}
+
+.sobre_txt p,
+h1 {
+    line-height: 1.5em;
+    font-size: 1.7em;
+}
+
+.sobre_txt h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.fundo_cont {
+    max-width: 600px;
+}
+
+.frozinha {
+    display: none;
+}
+
+/*Narrativas carrousel*/
+
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    padding-top: 20%;
+}
+
+.card a {
+    color: black;
+    font-family: 'Courier Prime';
+    display: flex;
+    margin-top: 97%;
+    justify-content: center;
+    height: 12%;
+    width: 60%;
+    place-items: center;
+    font-size: 1.4em;
+
+    text-decoration: none;
+}
+
+/*Narrativas 1.2*/
+
+.intro_narrativas1_2 {
+    height: 1300px;
+}
+
+.narrativas_temas_lista {
+    grid-template-columns: repeat(2, 40%);
+    row-gap: 4%;
+    padding-top: 12%;
+}
+
+
+.temas_elementos a {
+    padding: 5%;
+    font-size: 2em;
+}
+
+
+.narrativas_flor {
+    max-height: 120px;
+    margin-top: 13%;
+}
+
+/*NARRATIVAS 1.3*/
+
+.intro_narrativas1_3 {
+    height: 2800px;
+    padding-top: 25%;
+}
+
+.fundo_narrativas1_3{ 
+    background: none;
+    width: 90%;
+}
+
+.narrativas1_3_txt {
+    background: url(../imgPlat/narrativas1.3-txt.png);
+    background-size: cover;
+    width: 100%;
+    padding: 5%;
+}
+
+.aNarrativa {
+    padding-top: 10%;
+    font-size: 1.8em;
+    line-height: 35px;
+}
+
+.titulo_narrativa {
+    font-size: 2.2em;
+    padding-bottom: 2%;
+}
+
+.pesquisadora_narrativa {
+    font-size: 1.5em;
+}
+
+.frozinha2 {
+   display: none;
+}
+
+/* PESQUISADORAS */
+
+.pesquisadoras_lista {
+    grid-template-columns: repeat(2, 30%);
+    padding-top: 15%;
+    column-gap: 12%;
+
+}
+
+.pesquisadoras_lista p {
+    font-size: 1.5em;
+}
+
+
+/*Pesquisadores detalhe*/
+
+.intro_detalhe_pesq{
+    padding-top: 30%;
+    height: 1400px;
+}
+
+.fundo_detalhe_pesq{
+    background: none;
+    width: 90%;
+}
+
+.pesquisadores_pessoa {
+    
+    background: url("../imgPlat/2.2\ pesquisadoras\ \(onde\ vai\ o\ texto\).png") no-repeat;
+    padding: 8%;
+    width: 100%;
+}
+
+
+.foto_pessoa {
+    width: 300px;
+    height: 300px;
+}
+
+
+.lista_txt p{
+    font-size: 1.7em;
+    line-height: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+}
+
+
+
+
+
 
 
 /*Celular*/
