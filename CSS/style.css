@@ -322,6 +322,8 @@ input[type=radio] {
     border-radius: 5px;
 
     font-size: 2em;
+    width: 70%;
+    text-align: center;
 }
 
 #item-3:checked~.cards #song-3 .link-text {
