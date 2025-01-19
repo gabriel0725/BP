@@ -58,6 +58,9 @@ p {
     display: inline-block;
     margin: 10px 12px;
     margin-bottom: 4%;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #000;
 }
 
 .header_menu ul li a {
@@ -65,7 +68,6 @@ p {
     font-size: 1.05em;
     line-height: 20px;
     padding: 5px 1em;
-    text-decoration: underline;
 }
 
 .header_menu ul li a:hover {
@@ -76,13 +78,75 @@ p {
     color: #FFF;
 }
 
+.narrativa-menu:hover {
+    color: #FFF;
+}
+
 .btn_inicio {
     display: none;
 }
 
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 300px;
+    top: 100%;
+    border: 1px solid red;
+    background-color: #fff;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu li:hover {
+    border-color: red;
+}
+
+.submenu li {
+    display: block;
+}
+
+/* Estilo para o item do menu que terá o dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /* Esconde o menu dropdown por padrão */
+    position: absolute;
+    top: 100%; /* Faz o dropdown aparecer abaixo do item do menu */
+    left: 0;
+    background-color: #ffffff00;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    width: 150%;
+}
+
+.dropdown-menu li {
+    list-style: none;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Remover a exibição do dropdown com hover */
+.dropdown:hover .dropdown-menu {
+    display: none;
+}
+
+/* Exibir o menu dropdown quando a classe 'open' for adicionada */
+.dropdown.open .dropdown-menu {
+    display: block;
+}
+
 /*menu hamburguer*/
-
-
 
 .menu-hamburguer-elements li {
     list-style: none;
@@ -847,6 +911,11 @@ input[type=radio] {
         border-color: #000000;
     }
 
+    .dropdown-menu {
+        position: relative;
+        width: 100%;
+    }
+
     /*Inicio*/
 
 .introducao {
@@ -1125,6 +1194,11 @@ h1 {
     .hamb {
         height: 80px;
         width: 60px;
+    }
+
+    .dropdown-menu {
+        position:static;
+        width: 100%;
     }
 
     .introducao {
