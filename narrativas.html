@@ -21,10 +21,11 @@
 		rel="stylesheet">
 	<link rel="shortcut icon" href="../imgPlat/favicon.ico">
 	<link rel="stylesheet" href="../CSS/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="UTF-8" ></script>
 </head>
 
 <body>
-	<header class="header fundo">
+    <header class="header fundo">
 		<div class="container">
 			<nav class="header_menu menu-hamburger">
 				<a href="index.html" class="logo">
@@ -42,7 +43,15 @@
 				<ul class="menu-hamburguer-elements show">
 					<li><a href="index.html" class="btn_inicio">Inicio</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="Narrativas.html" class="menu_ativo">Narrativas</a></li>
+					<li class="dropdown ">
+						<a class="sub-btn menu_ativo" >Narrativas</a>
+						<div class="dropdown-menu sub-menu">
+							<ul>
+								<li><a class="sub-item menu_ativo" href="narrativas.html">Eixo subjetividades</a></li>
+								<li><a class="sub-item" href="narrativas_tematicas.html">Eixo assuntos</a></li>
+							</ul>
+						</div>
+					</li>
 					<li><a href="pesquisadores.html">Pesquisadoras/es</a></li>
 					<li><a href="projetos.html">Projetos</a></li>
 				</ul>
@@ -58,12 +67,6 @@
 			<input type="radio" name="slider" id="item-6">
 			<input type="radio" name="slider" id="item-7">
 			<input type="radio" name="slider" id="item-8">
-			<input type="radio" name="slider" id="item-9">
-			<input type="radio" name="slider" id="item-10">
-			<input type="radio" name="slider" id="item-11">
-			<input type="radio" name="slider" id="item-12">
-			<input type="radio" name="slider" id="item-13">
-			<input type="radio" name="slider" id="item-14">
             <div class="cards">
                 <label class="card img1" for="item-1" id="song-1">
 					<img src="../imgPlat/Carrossel/1.png" alt="song">
@@ -97,33 +100,9 @@
 					<img src="../imgPlat/Carrossel/4.png" alt="song">
 					<a href="https://codepen.io/aybukeceylan/pen/RwrRPoO" class="link-text carousel-link">foto 08</a>
 				</label>
-				<label class="card" for="item-9" id="song-9">
-					<img src="../imgPlat/Carrossel/4.png" alt="song">
-					<a href="https://codepen.io/aybukeceylan/pen/RwrRPoO" class="link-text carousel-link">foto 09</a>
-				</label>
-				<label class="card" for="item-10" id="song-10">
-					<img src="../imgPlat/Carrossel/4.png" alt="song">
-					<a href="https://codepen.io/aybukeceylan/pen/RwrRPoO" class="link-text carousel-link">foto 10</a>
-				</label>
-				<label class="card" for="item-11" id="song-11">
-					<img src="../imgPlat/Carrossel/4.png" alt="song">
-					<a href="https://codepen.io/aybukeceylan/pen/RwrRPoO" class="link-text carousel-link">foto 11</a>
-				</label>
-				<label class="card" for="item-12" id="song-12">
-					<img src="../imgPlat/Carrossel/4.png" alt="song">
-					<a href="https://codepen.io/aybukeceylan/pen/RwrRPoO" class="link-text carousel-link">foto 12</a>
-				</label>
-				<label class="card" for="item-13" id="song-13">
-					<img src="../imgPlat/Carrossel/4.png" alt="song">
-					<a href="https://codepen.io/aybukeceylan/pen/RwrRPoO" class="link-text carousel-link">foto 13</a>
-				</label>
-				<label class="card" for="item-14" id="song-14">
-					<img src="../imgPlat/Carrossel/4.png" alt="song">
-					<a href="https://codepen.io/aybukeceylan/pen/RwrRPoO" class="link-text carousel-link">foto 14</a>
-				</label>
             </div>
         </div>
     </section>
-    <script src="../JS/script.js"></script>
+	<script src="./JS/script.js"></script>
 </body>
 </html>

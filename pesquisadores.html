@@ -21,10 +21,11 @@
 		rel="stylesheet">
 	<link rel="shortcut icon" href="../imgPlat/favicon.ico">
 	<link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="UTF-8" ></script>
 </head>
 
 <body>
-	<header class="header fundo">
+    <header class="header fundo">
 		<div class="container">
 			<nav class="header_menu menu-hamburger">
 				<a href="index.html" class="logo">
@@ -40,9 +41,17 @@
 					</div>
 				</label>
 				<ul class="menu-hamburguer-elements show">
-					<li><a href="index.html" class="btn_inicio">Inicio</a></li>
+					<li><a href="index.html" class="btn_inicio menu_ativo">Inicio</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="Narrativas.html" >Narrativas</a></li>
+					<li class="dropdown ">
+						<a class="sub-btn" >Narrativas</a>
+						<div class="dropdown-menu sub-menu">
+							<ul>
+								<li><a class="sub-item" href="narrativas.html">Eixo subjetividades</a></li>
+								<li><a class="sub-item" href="narrativas_tematicas.html">Eixo assuntos</a></li>
+							</ul>
+						</div>
+					</li>
 					<li><a href="pesquisadores.html" class="menu_ativo">Pesquisadoras/es</a></li>
 					<li><a href="projetos.html">Projetos</a></li>
 				</ul>
