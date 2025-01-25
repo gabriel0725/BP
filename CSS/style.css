@@ -360,39 +360,47 @@ input[type=radio] {
     cursor: pointer;
 }
 
-/*posso excluir essa parte para fazer mais teste/
+
 .card a {
     color: black;
-    font-family: 'Courier Prime';
     display: flex;
-    margin-top: 97%;
     justify-content: center;
-    height: 12%;
-    width: 78%;
+    height: 20%;
+    width: 76%;
     place-items: center;
-    font-size: 1.4em;
-    background-color: red;
+    font-size: 1.7em;
     text-decoration: none;
+    background: rgba(0, 0, 0, 0.1);
+    font-weight:700;
 }
 
-/*posso excluir essa parte para fazer mais teste*/
+.card .img2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 76%;
+    place-items: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.1);
+}
 
 
 
 .link-text {
     position: absolute;
-    bottom: 15px;
+    bottom: 3px;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.1);
     color: rgb(0, 0, 0);
-    padding: 5px 10px;
     border-radius: 5px;
-
-    font-size: 2em;
     width: 70%;
     text-align: center;
 }
+
+
 
 #item-3:checked~.cards #song-3 .link-text {
     display: block;
@@ -471,6 +479,10 @@ input[type=radio] {
     }
 }
 
+.intro_narrativas a {
+    font-family: "Amatic SC", serif;
+}
+
 /* FIM NARRATIVAS CARROUSSEL*/
 
 /*CARROUSSEL COM 6 ITENS*/
@@ -515,6 +527,10 @@ input[type=radio] {
 }
 
 /* FIM CARROUSSEL 6 ITENS*/
+
+.intro_narrativas a {
+    font-family:;
+}
 
 
 /*NARRATIVAS 1.2*/
@@ -737,9 +753,9 @@ input[type=radio] {
 .intro_detalhe_pesq{
     background: url("../imgPlat/2.2\ pesquisadoras\ fundo.png") no-repeat;
     width: 100%;
-    height: 1200px;
     background-size: cover;
     padding-top: 13%;
+    padding-bottom: 5%;
 }
 
 .fundo_detalhe_pesq{
@@ -747,12 +763,15 @@ input[type=radio] {
     background: url("../imgPlat/2.2\ pesquisadoras\ \(onde\ vai\ o\ texto\).png") no-repeat;
     width: 100%;
     max-width: 900px;
-    height: 800px;
 }
 
 .pesquisadores_pessoa {
     padding-top: 7%;
     width: 80%;
+}
+
+.pesquisadores_pessoa h1{
+    font-family: "Caveat", serif;
 }
 
 .pesquisadores_pessoa li {
@@ -779,6 +798,11 @@ input[type=radio] {
 .lista_txt p{
     font-size: 1.5em;
     line-height: 35px;
+    padding-bottom: 5%;
+}
+
+.lattesLink{
+    padding-bottom: 5%;
 }
 
 .clearfix::after {
@@ -795,7 +819,6 @@ input[type=radio] {
     background: url(../imgPlat/bg-projetos.png) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1800px;
     align-content: center;
     padding-top: 13%;
 }
@@ -854,11 +877,6 @@ input[type=radio] {
 
 
 
-
-
-
-
-
 /*Tablet*/
 @media screen and (min-width: 641px) and (max-width: 1023px) {
 
@@ -895,7 +913,7 @@ input[type=radio] {
     }
 
     .menu-hamburguer-elements {
-        width: 60%;
+        width: 30%;
         height: 100%;
         background-color: rgba(65, 65, 65, 0.699);
         position: fixed;
@@ -944,7 +962,7 @@ input[type=radio] {
     }
 
     .dropdown-menu {
-        position: relative;
+        position: static;
         width: 100%;
     }
 
@@ -1015,7 +1033,7 @@ h1 {
 
 .cards {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: 100%;
     align-content: center;
     padding-top: 20%;
@@ -1023,17 +1041,24 @@ h1 {
 
 .card a {
     color: black;
-    font-family: 'Courier Prime';
     display: flex;
-    margin-top: 97%;
     justify-content: center;
-    height: 12%;
-    width: 60%;
+    height: 20%;
+    width: 70%;
     place-items: center;
-    font-size: 1.4em;
-
+    font-size: 1.7em;
     text-decoration: none;
+    background: rgba(0, 0, 0, 0.1);
+
 }
+
+.card .img2 {
+    height: 20%;
+    width: 70%;
+    font-size: 1.4em;
+}
+
+
 
 /*Narrativas 1.2*/
 
@@ -1115,7 +1140,6 @@ h1 {
 
 .intro_detalhe_pesq{
     padding-top: 30%;
-    height: 1400px;
 }
 
 .fundo_detalhe_pesq{
@@ -1148,9 +1172,23 @@ h1 {
     clear: both;
 }
 
+/*PROJETOS*/
+.intro_projetos {
+    width: 100%;
+    padding-top: 25%;
+}
+
+.fundo_projetos {
+    width: 80%;
+}
+
+.projetos_txt .nome-pessoa {
+    font-size: 2em;
+    line-height: 80%;
 }
 
 
+}
 
 
 
@@ -1318,8 +1356,23 @@ h1 {
 }
 
 .link-text {
-    bottom: 5%;
+    bottom: 1%;
 }
+
+
+.card a {
+    height: 20%;
+    width: 90%;
+    font-size: 1.4em;
+}
+
+.card .img2 {
+    height: 19%;
+    width: 90%;
+    font-size: 1.1em;
+}
+
+
 
 
 
@@ -1437,7 +1490,7 @@ h1 {
 
 .intro_projetos {
     width: 100%;
-    height: 1600px;
+    padding-top: 35%;
 }
 
 .fundo_projetos {
