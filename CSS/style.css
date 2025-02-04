@@ -528,11 +528,6 @@ input[type=radio] {
 
 /* FIM CARROUSSEL 6 ITENS*/
 
-.intro_narrativas a {
-    font-family:;
-}
-
-
 /*NARRATIVAS 1.2*/
 
 .intro_narrativas1_2 {
@@ -566,21 +561,21 @@ input[type=radio] {
 
 .temas_elementos a {
     position: absolute;
-    top: 70%;
+    top: 67%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
     font-family: 'Courier Prime';
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-decoration: none;
-    width: 95%;
+    width: 90%;
     max-height: 180px;
     padding: 0 5%;
 }
 
 .temas_elementos p {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -588,6 +583,11 @@ input[type=radio] {
     font-size: 1.4em;
     text-decoration: none;
     width: 80%;
+}
+
+.twocolunm {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 0%;
 }
 
 /* Estilos específicos para as labels*/
@@ -646,6 +646,10 @@ input[type=radio] {
     padding-top: 5%;
 }
 
+.txt_grande a{
+    font-size: 1.05em;
+}
+
 .narrativas_flor {
     display: block;
     max-height: 120px;
@@ -675,19 +679,42 @@ input[type=radio] {
 }
 
 .aNarrativa {
-    padding-top: 5%;
+    padding-top: 0%;
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
+    line-height: 30px;
+}
+
+.narradora {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-family: "Caveat", serif;   
+}
+
+.resumo_narrativa{
+    padding-top: 0%;
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 30px;
+}
+
+.resumo_titulo{
+    padding-top: 5%;
+    font-size: 1.3em;
 }
 
 .titulo_narrativa {
     font-size: 1.5em;
     padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
 }
 
 .pesquisadora_narrativa {
     font-size: 1.2em;
     padding-top: 0.5%;
+    font-family: "Caveat", serif;
+    text-align: center;
 }
 
 .frozinha2 {
@@ -1123,14 +1150,14 @@ h1 {
 }
 
 .temas_elementos p {
-    top: 50%;
-    font-size: 1.8em;
+    top: 35%;
+    font-size: 1.7em;
     width: 55%;
 }
 
 .temas_elementos a {
-    top: 75%;
-    font-size: 1.6em;
+    top: 65%;
+    font-size: 1.4em;
     width: 55%;
 }
 
@@ -1470,6 +1497,7 @@ h1 {
 .narrativas_temas_lista {
     display: block;
     width: 85%;
+    margin-top: 15%;
 }
 
 
@@ -1482,6 +1510,10 @@ h1 {
 .narrativas_flor {
     max-height: 80px;
     margin-top: 13%;
+}
+
+.twocolunm {
+    margin-top: 15%;
 }
 
 /* Estilos específicos para as labels*/
