@@ -291,8 +291,8 @@ input:checked~.menu-hamburguer-elements {
     text-align: center;
     color: #FFF;
     padding-top: 2%;
-    margin-top: 20%;
-    margin-bottom: 15% 
+    margin-top: 35%;
+    margin-bottom: 15%;
 }
 
 .sobre_txt p,
@@ -306,11 +306,12 @@ h1 {
 
 .sobre_txt h1 {
     font-family: "Courier Prime", monospace;
+    text-transform: uppercase;
 }
 
 .fundo_cont {
     margin: 0 auto;
-    background: url(../imgPlat/txtNarrativasFundo.png) no-repeat center;
+    background: url(../imgPlat/txtNarrativasFundo.png) center;
     width: 100%;
     max-width: 900px;
 }
@@ -329,7 +330,7 @@ h1 {
 /*NARRATIVAS*/
 
 .intro_narrativas {
-    background: url(../imgPlat/bg-narrativas.png) no-repeat center;
+    background: url(../imgPlat/2.2\ pesquisadoras\ fundo.png) no-repeat center;
     background-size: cover;
     height: 100vh;
 }
@@ -702,7 +703,12 @@ input[type=radio] {
     padding-top: 5%;
     padding-bottom: 1%;
     font-family: 'Courier Prime', monospace;  
-
+    font-weight: bold;
+}
+.subtitulo_narrativa2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Courier Prime', monospace;  
     font-weight: bold;
 }
 
@@ -1151,11 +1157,13 @@ footer {
 /*Sobre*/
 
 .intro_sobre {
-    height: 1150px;
+    background: url(../imgPlat/bgSobre.png) center;
+    background-size: auto;
 }
 
 .sobre_txt {
-    width: 90%;
+    width: 85%;
+    margin-top: 55%;
 }
 
 .sobre_txt p,
@@ -1495,11 +1503,13 @@ h1 {
     /*SOBRE*/
 
 .intro_sobre {
-    height: 1150px;
+    background: url(../imgPlat/bgSobre.png) center;
+    background-size: auto;
 }
 
 .sobre_txt {
     width: 85%;
+    margin-top: 55%;
 }
 
 .sobre_txt p,
