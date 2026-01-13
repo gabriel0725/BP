@@ -24,8 +24,6 @@ p, span {
 
 
 
-
-
 /* Header */
 
 .header {
@@ -38,7 +36,7 @@ p, span {
 }
 
 .logo {
-    width: 65px;
+    width: 100px;
     float: left;
     padding-top: 1.2%;
 }
@@ -580,7 +578,7 @@ input[type=radio] {
     transform: translate(-50%, -50%);
     color: black;
     font-family: 'Courier Prime';
-    font-size: 1.1em;
+    font-size: 1em;
     text-decoration: none;
     width: 90%;
     max-height: 180px;
@@ -1775,6 +1773,16 @@ h1 {
     display: block;
     margin: 2% auto;
     max-height: 80px;
+}
+
+.footer2 ul {
+    display: block;
+    margin-left: 5%;
+}
+
+.footer2 .logo {
+    width: 70px;
+    display: block;
 }
 
 
